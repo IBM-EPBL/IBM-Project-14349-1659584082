@@ -1,0 +1,55 @@
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**ASSIGNMENT-4(SMS SPAM CLASSIFICATION)**\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "qp469c3KtIhV"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        " **1.Download the Dataset:-**"
+      ],
+      "metadata": {
+        "id": "nlGO8tc-DGfG"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**2.Import required library**"
+      ],
+      "metadata": {
+        "id": "Gzrsrcy-DIQi"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "from sklearn.preprocessing import LabelEncoder\n",
+        "encoder=LabelEncoder()\n",
+        "import keras\n",
+        "from keras.models import Sequential\n",
+        "from tensorflow.keras import layers\n",
+        "import nltk\n",
+        "import string \n",
+        "import seaborn as sns\n",
+        "import matplotlib.pyplot as plt\n"
+      ],
+
